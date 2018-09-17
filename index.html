@@ -29,32 +29,35 @@
   <!-- START -->
   
 		<div class="container">
-		<h1 class="form-heading">login Form</h1>
 		<div class="login-form">
 		<div class="main-div">
 			<div class="panel">
-		   <h2>Admin Login</h2>
-		   <p>Please enter your email and password</p>
+		   <h2>Add case</h2>
 		   </div>
 			<form id="Login">
-
 				<div class="form-group">
-
-
-					<input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
-
+					<label for="clientName">Client's Name</label>
+					<input type="text" class="form-control" id="clientName" placeholder="">
 				</div>
-
 				<div class="form-group">
-
-					<input type="password" class="form-control" id="inputPassword" placeholder="Password">
-
+					<label for="productType">Product Type</label>
+					<select class="form-control" id="productType">
+					  <option>PAA</option>
+					  <option>PEP</option>
+					  <option>ELITE</option>
+					  <option>PIA</option>
+					  <option>PRUMIL</option>
+					</select>
 				</div>
-				<div class="forgot">
-				<a href="reset.html">Forgot password?</a>
-		</div>
-				<button type="submit" class="btn btn-primary">Login</button>
-
+				<div class="form-group">
+					<label for="ape">APE</label>
+					<input type="number" class="form-control" id="productType" placeholder="">				
+				</div>
+				<div class="form-group">
+					<label for="date">Date Issued</label>
+					<input type="date" class="form-control" id="date" placeholder="">				
+				</div>
+				<button type="submit" class="btn btn-primary">Add</button>
 			</form>
 			</div>
 		<p class="botto-text"> Designed by Sunil Rajput</p>
